@@ -31,3 +31,6 @@ TARGET_OTA_ASSERT_DEVICE := jflte,jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505
 
 # Kernel
 TARGET_KERNEL_CONFIG         := jf_eur_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := chronic_jf_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro
+BUILD_KERNEL := true
